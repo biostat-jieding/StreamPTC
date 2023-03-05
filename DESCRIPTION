@@ -1,0 +1,34 @@
+Package: StreamPTC
+Title: Online Estimation in Promotion Time Cure Model
+Version: 1.0.1
+Authors@R: 
+    c(
+    person(given = "Jie",
+         family = "Ding",
+         role = c("aut", "cre"),
+         email = "biostat_jieding@outlook.com",
+         comment = c(ORCID = "0000-0002-6083-7529")),
+    person(given = "Xiaoguang",
+         family = "Wang",
+         role = c("aut"),
+         email = "wangxg@mail.dlut.edu.cn",
+         comment = c(ORCID = "0000-0002-5598-062X")),
+    person(given = "Jialiang", 
+         family = "Li", 
+         role = c("aut"),  
+         email = "jialiang@nus.edu.sg",
+         comment = c(ORCID = "0000-0002-9704-4135"))
+    )
+Author: Jie Ding [aut, cre], Xiaoguang Wang [aut], Jialiang Li [aut]
+Maintainer: Jie Ding <biostat_jieding@outlook.com>
+Description: This package provides functions for conducting online estimation in 
+  promotion time cure model. Adaptive Lasso penalization can also be realized for
+  the purpose of online variable selection.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Matrix, MASS, survival
+Depends: survival
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+NeedsCompilation: no
+Packaged: 2023-03-05 03:15:14 UTC; biost
