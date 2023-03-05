@@ -32,7 +32,7 @@ Est.Lam0t <- PTC.NPMLE.Lam(tm=tm,bet=fit.PTC$res[,1],yobs=yobs,delta=delta,X=X)
 print(data.frame(Est=Est.Lam0t,row.names=tm))
 ```
 
-- *An example for doing online variable selection via the promotion time cure model*
+- *An example for doing variable selection via the promotion time cure model*
 ```R
 ## ---- generate the simulated dataset ---- ##
 sdata.full  <- sdata.PTC.High(N=500)
